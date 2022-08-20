@@ -48,6 +48,7 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
+            "composer require laravel/ui",
             "php artisan ui vue --auth",
             "php artisan clear-compiled",
             "chmod -R 755 public/"
