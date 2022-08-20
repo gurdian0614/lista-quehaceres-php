@@ -48,9 +48,8 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
-            "composer require laravel/ui",
-            "php artisan ui bootstrap",
-            "php artisan ui bootstrap --auth"
+            "@php artisan ui bootstrap",
+            "@php artisan ui bootstrap --auth"
         ]
     },
     "extra": {
